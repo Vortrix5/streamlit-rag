@@ -10,3 +10,4 @@ qdrant-client
 llama_index.vector_stores.qdrant
 fastembed
 pre-commit
+pymupdf
