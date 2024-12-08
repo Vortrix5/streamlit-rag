@@ -21,6 +21,7 @@ def create_index(document_paths):
         client=client,
         collection_name=collection_name,
         enable_hybrid=True,
+        use_approximate_search=True,  # Enable approximate search
     )
 
     storage_context = StorageContext.from_defaults(vector_store=vector_store)
